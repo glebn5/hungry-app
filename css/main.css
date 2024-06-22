@@ -1,0 +1,343 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@500;700&display=swap');
+
+body {
+	color: #FFF;
+}
+
+.header {
+	background: #1F98F0;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 80px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.nav-items {
+	display: flex;
+	column-gap: 50px;
+	margin-right: 200px;
+}
+
+.logo {
+	font-family: Lato;
+	font-size: 30.95px;
+	font-weight: 700;
+	color: #FFF;
+}
+
+.nav-item {
+	font-family: Work Sans;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 150%;
+}
+.nav-item:hover {
+	text-decoration: underline;
+}
+
+.nav-item a {
+	color: #FFF;
+}
+
+.button {
+	background: #FFF;
+	color: black;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.header-main {
+	display: flex;
+	column-gap: 134px;
+	align-items: center;
+}
+
+.header-left {
+	width: 500px;
+	height: 331px;
+	display: flex;
+	flex-direction: column;
+}
+
+.header-title {
+	width: 500px;
+	height: 124px;
+	font-family: Work Sans;
+	font-size: 51px;
+	font-weight: 700;
+	line-height: 130%;
+	margin-bottom: 30px;
+}
+
+.header-p {
+	width: 488px;
+	height: 56px;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 50px;
+}
+
+/* -------------------------------------------- */
+.main {
+	padding-top: 63px;
+}
+
+.main-companies {
+	margin: 0 auto;
+}
+
+.main-companies-text {
+	margin-bottom: 45px;
+	color: #03101A;
+	font-family: Lato;
+	font-size: 22px;
+
+	font-weight: 500;
+}
+
+.main-companies-logo {
+	display: flex;
+	column-gap: 110px;
+}
+
+.main-features {
+	margin-top: 128px;
+	display: flex;
+	column-gap: 210px;
+}
+
+.main-app {
+	margin-top: 50px;
+}
+
+.main-title {
+	color: #03101A;
+	margin-bottom: 85px;
+	font-family: Lato;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.main-feature-item {
+	margin-bottom: 51px;
+	display: flex;
+	column-gap: 30px;
+}
+
+.main-feature-item-h {
+	color: #03101A;
+
+	font-family: Lato;
+	font-size: 21px;
+
+	font-weight: 500;
+	margin-bottom: 20px;
+
+}
+
+.main-feature-item-text {
+	color: #03101A;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+/* -------------------------------------- */
+.main-testimonials {
+	margin-top: 120px;
+	text-align: center;
+	margin-bottom: 79px;
+}
+
+.main-testimonials-man {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 115px;
+}
+
+.main-testimonials-men img {
+	margin-bottom: 20px;
+}
+
+.main-testimonials-name {
+	color: #03101A;
+	font-family: Lato;
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.main-testimonials-text {
+	color: #03101A;
+	text-align: center;
+
+	font-family: Lato;
+	font-size: 16px;
+	width: 260px;
+	font-weight: 400;
+	line-height: 150%;
+	/* 24px */
+}
+
+/* -------------------------------------------------------- */
+.available {
+	background: #1F98F0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.available-title {
+	font-family: Lato;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.available-wrapper {
+	display: flex;
+	column-gap: 380px;
+}
+
+.available .container .button {
+	display: inline-flex;
+	padding: 20px 49px;
+	align-items: flex-start;
+	font-weight: 600;
+	color: #1F98F0;
+}
+
+/* ------------------------------------------------------- */
+.news {
+	padding: 120px;
+}
+
+.news-title {
+	color: #03101A;
+	text-align: center;
+	font-family: Lato;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.news-items {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+}
+
+.news-item-title {
+	margin-top: 25px;
+	color: #03101A;
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.news-footer-description {
+	margin-top: 15px;
+	width: 327px;
+	color: #6D7073;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.news-item-more {
+	margin-top: 30px;
+	font-family: Lato;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 150%;
+}
+
+.news-item-more a {
+	color: #1F98F0;
+}
+
+/* ------------------------------------------ */
+.footer {
+	padding-top: 112px;
+	padding-bottom: 100px;
+	background: #03101A;
+}
+
+.footer .container {
+	display: flex;
+	max-width: 1300px;
+	column-gap: 64px;
+}
+
+.hungry-logo .news-footer-description {
+	margin-top: 35px;
+	color: #FFF;
+}
+
+.footer-items {
+	display: flex;
+	column-gap: 83px;
+}
+
+.footer-support-title {
+	color: #FFF;
+	font-family: Lato;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.footer-support-list {
+	margin-top: 35px;
+}
+
+.footer-supprot-item {
+	margin-bottom: 15px;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.footer-search {
+	margin-top: 25px;
+	margin-bottom: 32px;
+	display: flex;
+}
+
+.footer-search-text {
+	display: flex;
+	background: #FFF;
+	width: 200px;
+	padding: 10px;
+	color: #03101A;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 150%;
+}
+.footer-search-button {
+	width: 100px;
+	background: #1F98F0;
+	font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+}
